@@ -14,7 +14,8 @@ class PostsNew extends Component {
         this.props.createPost(props)
             .then(() => {
                 this.context.router.push('/');
-            });
+            }
+        );
     }
 
     render() {
